@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Using Alert</title>
+<script>
+function msgAlert() {
+var x;
+x=f1.tb1.value;
+alert("hi "+ x + " Welcome to KC High");
+document.getElementById("p1").innerHTML="<h1>Hi " + x + " Welcome to JavaScript!</h1>";}
+</script>
+</head>
+<body>
+<h1>Message Box using Alert</h1>
+<form name="f1" >
+Name: <input type="text" size="15" id="tb1"><br>
+<button type="button" id="b1" onclick="msgAlert()">click</button>
+<font color="blue"> <p id="p1">Welcome</p> </font>
+</form>
+</body>
+</html>

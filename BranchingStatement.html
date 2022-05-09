@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>script</title>
+<script>
+function calculate() {
+var x;
+x = parseInt(tbage. value);
+if (x >= 18) {
+document.getElementById("res").innerHTML = "Eligible";
+document.getElementById('res').style.color = 'green';
+}
+else{
+document.getElementById("res").innerHTML = "Not eligible";
+document.getElementById('res').style.color = 'red';
+}
+}
+</script>
+</head>
+<body>
+<h1>Voting Program</h1>
+<input type="text" id="tbage">
+<button type="button" onclick="calculate()">Calculate</button>
+<p id="res"> </p>
+</body>
+</html>
